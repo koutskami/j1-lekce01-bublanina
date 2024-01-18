@@ -156,7 +156,7 @@ public class Miska {
     }
   }
 
-  public void vylozSiTrochu() {
+  public void vylozSiTrochu(Mouka pytlikMouky) {
     if (pocetVajec > 0) {
       throw new IllegalStateException(jmeno + " nemuze vylozit trochu rozkleplych vajicek");
     }
