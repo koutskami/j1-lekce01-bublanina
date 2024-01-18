@@ -60,6 +60,9 @@ public class SpousteciTrida {
 
     //mixer smicha obsah cervene misky, tj. vejce s cukrem
     mixer.zamichej(cervenaMiska);
+
+    //miska si prida maslo
+    cervenaMiska.nalozSiCelyObsah(maslo125g);
   }
 
 }
