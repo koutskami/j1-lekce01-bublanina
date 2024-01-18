@@ -49,10 +49,14 @@ public class SpousteciTrida {
     // Pouzivejte napovidani v editoru.
     // Vyskakuje samo nebo pomoci Ctrl+Mezernik
 
+    //miska nalozi 4 vejce
     for (int i = 0; i < 4; i++) {
     cervenaMiska.nalozSiJedenKus(vajicka);
     //cyklus pro vkladani vejci do misky, i < pocet vejci v receptu
     }
+
+    //miska si nalozi cukr
+    cervenaMiska.nalozSiCelyObsah(pytlikCukru);
   }
 
 }
