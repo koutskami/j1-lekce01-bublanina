@@ -87,6 +87,12 @@ public class SpousteciTrida {
     //pridani prasku do peciva do cervene misky
     cervenaMiska.nalozSiCelyObsah(prasekDoPeciva);
 
+    //zamichani cervene misky
+    mixer.zamichej(cervenaMiska);
+
+    //na plech dame obsah z cervene misky
+    plech.preberSiObsah(cervenaMiska);
+
 
   }
 }
