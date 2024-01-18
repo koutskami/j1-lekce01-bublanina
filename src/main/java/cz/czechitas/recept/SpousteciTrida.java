@@ -80,5 +80,9 @@ public class SpousteciTrida {
         //pokud ma miska vic nez pozadovanou hmotnost, uber trochu mouky
       }
     }
+
+    //cervena miska si prevezme obsah zlute misky
+    cervenaMiska.nalozSiCelyObsah(zlutaMiska);
+
   }
 }
