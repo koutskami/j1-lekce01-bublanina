@@ -66,6 +66,12 @@ public class SpousteciTrida {
 
     //mixer zamicha obsah cervene misky
     mixer.zamichej(cervenaMiska);
-  }
 
+    //do zlute misky dame 250 g mouky z 1kg pytliku, potrebujeme vyuzit vahu
+    kuchynskaVaha.vynulujSeS(zlutaMiska);
+    //nejdrive vahu vynulujeme
+    //while (kuchynskaVaha.zjistiHmotnost(zlutaMiska) != 250) {
+      //mouka se bude pridavat, dokud vaha nenavazi 250 g
+      //zlutaMiska.nalozSiTrochu(pytlikMouky);}
+  }
 }
