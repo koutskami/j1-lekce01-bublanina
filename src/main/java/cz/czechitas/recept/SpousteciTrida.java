@@ -57,6 +57,9 @@ public class SpousteciTrida {
 
     //miska si nalozi cukr
     cervenaMiska.nalozSiCelyObsah(pytlikCukru);
+
+    //mixer smicha obsah cervene misky, tj. vejce s cukrem
+    mixer.zamichej(cervenaMiska);
   }
 
 }
