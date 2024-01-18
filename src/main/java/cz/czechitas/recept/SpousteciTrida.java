@@ -99,6 +99,14 @@ public class SpousteciTrida {
       //cyklus pro sypani ovoce na plech, i < pocet ks ovoce
     }
 
-
+    //predehrati trouby, 5 min
+    trouba.zapniSe(180);
+    trouba.nechejPect(5);
+    //vlozeni plechu, peceni 25 min
+    trouba.vlozSiDovnitr(plech);
+    trouba.nechejPect(25);
+    //dopec a vyndej ven z trouby
+    trouba.vypniSe();
+    trouba.vyndejObsahVen();
   }
 }
