@@ -63,6 +63,9 @@ public class SpousteciTrida {
 
     //miska si prida maslo
     cervenaMiska.nalozSiCelyObsah(maslo125g);
+
+    //mixer zamicha obsah cervene misky
+    mixer.zamichej(cervenaMiska);
   }
 
 }
