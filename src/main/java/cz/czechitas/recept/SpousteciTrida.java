@@ -68,14 +68,16 @@ public class SpousteciTrida {
     mixer.zamichej(cervenaMiska);
 
     //do zlute misky dame 250 g mouky z 1kg pytliku, potrebujeme vyuzit vahu
-    //nejdrive vahu vynulujeme
+    //nejdrive vahu vynulujeme s miskou
     kuchynskaVaha.vynulujSeS(zlutaMiska);
-    //ted pridam trochu mouky
-    zlutaMiska.nalozSiTrochu(pytlikMouky);
-    while (kuchynskaVaha.zjistiHmotnost(zlutaMiska) != 250) {
+    //ted potrebujeme cyklus, ktery bude nakladat mouku, dokud nebude odpovidat vaze co chceme
+    while (zlutaMiska.getHmotnost() != 250) {
+      //chci aby se cyklus opakoval dokud nebude mit miska 250 g
       if (kuchynskaVaha.zjistiHmotnost(zlutaMiska) < 250) {
         zlutaMiska.nalozSiTrochu(pytlikMouky);
+        //pokud nema miska pozadovanou hmotnost, pridej trochu mouky
       } else {zlutaMiska.vylozSiTrochu(pytlikMouky);
+        //pokud ma miska vic nez pozadovanou hmotnost, uber trochu mouky
       }
     }
   }
