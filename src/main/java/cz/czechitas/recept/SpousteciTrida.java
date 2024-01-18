@@ -93,6 +93,12 @@ public class SpousteciTrida {
     //na plech dame obsah z cervene misky
     plech.preberSiObsah(cervenaMiska);
 
+    //Plech se 50x opakovaně posype kousky ovoce
+    for (int i = 0; i < 50; i++) {
+     plech.posypSeKusem(ovoce);
+      //cyklus pro sypani ovoce na plech, i < pocet ks ovoce
+    }
+
 
   }
 }
