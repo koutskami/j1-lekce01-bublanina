@@ -82,7 +82,11 @@ public class SpousteciTrida {
     }
 
     //cervena miska si prevezme obsah zlute misky
-    cervenaMiska.nalozSiCelyObsah(zlutaMiska);
+    cervenaMiska.nalozSiObsahJineMisky(zlutaMiska);
+
+    //pridani prasku do peciva do cervene misky
+    cervenaMiska.nalozSiCelyObsah(prasekDoPeciva);
+
 
   }
 }
